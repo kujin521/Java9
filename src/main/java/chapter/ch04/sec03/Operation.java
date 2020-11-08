@@ -1,5 +1,8 @@
 package chapter.ch04.sec03;
 
+/**
+ * 这里实现一个计算器操作的枚举
+ */
 public enum Operation {
     ADD("+") {
         public int eval(int arg1, int arg2) { return arg1 + arg2; }

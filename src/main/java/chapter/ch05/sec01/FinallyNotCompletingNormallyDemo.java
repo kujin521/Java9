@@ -1,7 +1,8 @@
 package chapter.ch05.sec01;
 
-import java.util.concurrent.RejectedExecutionException;
-
+/**
+ *
+ */
 public class FinallyNotCompletingNormallyDemo {
     public static int parseInt(String number) {
         try {
@@ -10,7 +11,7 @@ public class FinallyNotCompletingNormallyDemo {
         } catch (NumberFormatException ex) {
             return 0;            
         } finally {
-            return -1; // This value is actually returned
+            return -1; // 该值实际上已返回
         }
     }
     

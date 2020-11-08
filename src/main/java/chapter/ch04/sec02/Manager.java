@@ -1,5 +1,10 @@
 package chapter.ch04.sec02;
 
+/**
+ * 邮箱消息类
+ * 关于拷贝 Clone
+ *
+ */
 public class Manager extends Employee {
     private double bonus;
     
@@ -12,7 +17,7 @@ public class Manager extends Employee {
         this.bonus = bonus;
     }
     
-    public double getSalary() { // Overrides superclass method
+    public double getSalary() { // 覆盖超类方法
         return super.getSalary() + bonus;
     }
     

@@ -1,6 +1,12 @@
 package chapter.ch04.sec02;
 
-public class Employee {
+/**
+ * 关于拷贝
+ * 如果实现一个类 有三种情况考虑 是否提供clone方法
+ *  继承Clone 什么也不做
+ *  实现Cloneable 接口
+ */
+public class Employee implements  Cloneable{
     private String name;
     private double salary;
         
@@ -26,7 +32,12 @@ public class Employee {
         return getClass().getName() + "[name=" + name
             + ",salary=" + salary + "]";
     }
-    
+
+    /**
+     * 深拷贝
+     * @return
+     * @throws CloneNotSupportedException
+     */
     public Employee clone() throws CloneNotSupportedException {
         return (Employee) super.clone();
     }

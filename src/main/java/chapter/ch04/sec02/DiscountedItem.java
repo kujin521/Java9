@@ -2,6 +2,9 @@ package chapter.ch04.sec02;
 
 import java.util.Objects;
 
+/**
+ *
+ */
 public class DiscountedItem extends Item {
     private double discount;
 
