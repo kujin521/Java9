@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.lang.Object</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">java.lang.Object</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Tree" zoom="1.0" x="105.5" y="149.5" />
+  <SelectedNodes>
+    <node>java.lang.Object</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>字段</Category>
+    <Category>构造函数</Category>
+    <Category>方法</Category>
+    <Category>属性</Category>
+    <Category>内部类</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

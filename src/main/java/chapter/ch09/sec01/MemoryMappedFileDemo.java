@@ -10,6 +10,9 @@ import java.nio.file.StandardOpenOption;
 
 // See http://en.wikipedia.org/wiki/BMP_file_format
 
+/**
+ * 内存映射文件演示
+ */
 public class MemoryMappedFileDemo {
     public static void main(String[] args) throws IOException {
         Path path = Paths.get("chart.bmp");

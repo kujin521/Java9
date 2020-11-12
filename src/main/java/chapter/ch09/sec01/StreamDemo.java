@@ -12,6 +12,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
+/**
+ * 流演示 对象是内存
+ * 输入/输出流 Reader Writer
+ */
 public class StreamDemo {
     public static void main(String[] args) throws IOException {
         Path path = Paths.get("alice.txt");
