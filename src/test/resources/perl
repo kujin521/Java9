@@ -1,0 +1,31 @@
+用法：perl [开关] [-] [程序文件] [参数]
+  -0 [八进制]指定记录分隔符（\ 0，如果没有参数）
+  -a用-n或-p自动拆分模式（将$ _拆分为@F）
+  -C [数字/列表]启用列出的Unicode功能
+  -c仅检查语法（运行BEGIN和CHECK块）
+  -d [：debugger]在调试器下运行程序
+  -D [数字/列表]设置调试标志（参数是位掩码或字母）
+  -e program一行程序（几个-e允许，省略programfile）
+  -E程序类似于-e，但是启用所有可选功能
+  -f在启动时不要执行$ sitelib / sitecustomize.pl
+  -a开关的-F / pattern / split（）模式（//是可选的）
+  -i [extension]编辑<>文件（如果提供扩展名，则进行备份）
+  -Idirectory指定@ INC /＃include目录（几个-允许）
+  -l [octal]启用行结束处理，指定行终止符
+  -[mM] [-]模块在执行程序之前执行“ use / no module ...”
+  -n假定“ while（<>）{...}”在程序周围循环
+  -p假定像-n这样的循环，但也像sed一样打印行
+  -s对programfile之后的开关启用基本解析
+  -S使用PATH环境变量查找程序文件
+  -t启用污染警告
+  -T启用污染检查
+  -u转储程序后的核心
+  -U允许不安全的操作
+  -v打印版本，补丁程序级别和许可证
+  -V [：variable]打印配置摘要（或单个Config.pm变量）
+  -w启用许多有用的警告
+  -W启用所有警告
+  -x [目录]忽略＃！perl行之前的文本（可选cd到目录）
+  -X禁用所有警告
+
+运行“ perldoc perl”以获取有关Perl的更多帮助。
